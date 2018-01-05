@@ -1,5 +1,5 @@
 #!/groovy
 
-node('master') {
+node('masterr') {
   echo "Hello world! I am node ${env.NODE_NAME}"
 }
